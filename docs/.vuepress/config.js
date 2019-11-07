@@ -304,7 +304,8 @@ module.exports = {
       '@vuepress/pwa',
       {
         serviceWorker: true,
-        updatePopup: true
+        updatePopup: true,
+        popupComponent: 'DocsSWUpdatePopup'
       }
     ],
     ['@vuepress/plugin-back-to-top', true],
