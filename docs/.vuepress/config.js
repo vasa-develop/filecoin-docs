@@ -300,6 +300,13 @@ module.exports = {
     }
   },
   plugins: [
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: true
+      }
+    ],
     ['@vuepress/plugin-back-to-top', true],
     [
       '@vuepress/active-header-links',

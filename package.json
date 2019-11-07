@@ -11,6 +11,7 @@
     "@vuepress/plugin-google-analytics": "^1.2.0",
     "@vuepress/plugin-last-updated": "^1.2.0",
     "all-relative": "^1.0.1",
+    "@vuepress/plugin-pwa": "^1.2.0",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "markdown-it-deflist": "^2.0.3",
