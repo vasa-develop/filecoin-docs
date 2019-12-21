@@ -8,7 +8,7 @@ IPFS next gen documentation platform, built on top of [VuePress](https://github.
 
 ```sh
 # first install the dependencies
-npm i
+npm ci
 # then boot up the app in dev mode
 npm start
 # open http://localhost:8080/ in your browser
