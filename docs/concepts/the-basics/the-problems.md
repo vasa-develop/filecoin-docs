@@ -26,7 +26,7 @@ Let's take a dive into these problems and explain them a bit further.
 
 Currently the most popular methods for transferring data over the internet do not provide any way way to ensure that the file you're requestion is the file that you're getting. While this isn't a massive problem when sharing pictures of cats, it becomes an issue when dealing with programs, applications, or anbything else that executes code on a computer.
 
-![Computers receiving content from a centralized server.](images/central-server.jpg)
+![Computers receiving content from a centralized server.](images/the-problems/central-server.jpg)
 
 In the above scenario there are three computers (`A`, `B`, and `C`) requesting a file called `script.js` from `D`. Each of them sends their request to `D` independently, without any knowledge that the other computers are also sending a request.
 
@@ -34,7 +34,7 @@ How can we be sure that all three computers received the same file from computer
 
 Even if computer `D` was playing fair, there's a way that a hacker could interfer with this process.
 
-![A diagram showing a man-in-the-middle attack.](images/man-in-the-middle.jpg)
+![A diagram showing a man-in-the-middle attack.](images/the-problems/man-in-the-middle.jpg)
 
 The above scenario shows a simplifed man-in-the-middle attack. This is when an attacker places themself inbetween a target and the server they are requesting data from. In this case, attacker `B` intercepts computer `A`'s request for `script.js`. Attacker `B` then sends a request to computer `C` for the `script.js` file, modifies it, and then sends it back to computer `A`. [Learn more about man-in-the-middle attacks at CloudFlare.com →](https://www.cloudflare.com/learning/security/threats/man-in-the-middle-attack/).
 
