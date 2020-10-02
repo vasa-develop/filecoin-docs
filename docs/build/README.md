@@ -7,6 +7,7 @@ description: Documentation to start building applications on Filecoin.
 
 Filecoin is for the builders. If you are excited about the potential of leveraging the Filecoin protocol and decentralized storage network to build game-changing applications, you've come to the right place.
 
+
 This section groups documentation to help developers integrate with applications that interact with the Filecoin network and with Filecoin implementations. Among other things, in it you will learn:
 
 - How to setup Lotus [Lotus](lotus/README.md) APIs, generate tokens and perform requests.
